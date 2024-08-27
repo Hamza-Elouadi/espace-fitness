@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(210, 210, 210, 0.263);
+}
+.box{
+    display: flex;
+    gap: 650px;
+    background-color: rgb(84, 81, 81);
+    box-shadow: 0 0 20px black;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.box .a{
+    display: flex;
+    gap: 50px;
+}
+.box img{
+    width: 300px;
+    height: 100px;
+}
+.box .a a{
+    margin-top: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+}
+.box .a button{
+    margin: 40px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: yellow;
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    margin: 40px;
+    padding: 5px;
+}
+.box .a button:hover{
+    background-color: black;
+    color: yellow;
+    box-shadow: 0 0 12px yellow;
+}
+.box .a .hover{
+    color: yellow;
+}
+.box .a a:hover{
+    color: yellow;
+}
+.box-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    gap: 50px;
+}
+.box-1 img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.p{
+    background-color: white;
+    border-radius: 30px;
+    padding: 20px;
+}
+.p h1{
+    font-size: 50px;
+    margin: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(49, 47, 47);
+}
+.p p{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(52, 50, 50);
+}
+.b{
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+}
+.b button{
+    margin: 40px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: yellow;
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    margin: 40px 0 0 400px;
+    padding: 5px;
+}
+.b button:hover{
+    background-color: black;
+    color: yellow;
+    box-shadow: 0 0 12px yellow;
+}
+.b img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.contacte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 50px;
+}
+.contacte .whats{
+    color: green;
+    font-size: 30px;
+    border-radius: 50%;
+}
+.contacte .fb{
+    color: blue;
+    font-size: 30px;
+    border-radius: 50%;
+}
+.contacte .insta{
+    color: rgb(255, 0, 187);
+    font-size: 30px;
+    border-radius: 50%;
+}
+.contacte .tiktok{
+    color: black;
+    font-size: 30px;
+    border-radius: 50%;
+}
+.contacte .whats:hover{
+    color: rgb(255, 255, 255);
+    background-color: green;
+}
+.contacte .fb:hover{
+    color: rgb(255, 255, 255);
+    background-color: blue;
+}
+.contacte .insta:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 187);
+}
+.contacte .tiktok:hover{
+    color: rgb(255, 255, 255);
+    background-color: black;
+}

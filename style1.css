@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    display: flex;
+    gap: 650px;
+    background-color: rgb(84, 81, 81);
+    box-shadow: 0 0 20px black;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.box .a{
+    display: flex;
+    gap: 50px;
+}
+.box img{
+    width: 300px;
+    height: 100px;
+}
+.box .a a{
+    margin-top: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+}
+.button{
+    margin: 40px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: yellow;
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    margin: 40px;
+    padding: 5px;
+}
+.button:hover{
+    background-color: black;
+    color: yellow;
+    box-shadow: 0 0 12px yellow;
+}
+.box .a .hover{
+    color: yellow;
+}
+.box .a a:hover{
+    color: yellow;
+}
+.img{
+    width: 100%;
+    height: 500px;
+    margin-top: 120px;
+    object-fit: cover;
+}
+.abonnements{
+    margin-top: 10px;
+    background-color: rgba(185, 185, 185, 0.325);
+    text-align: center;
+}
+.abonnements h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(62, 62, 62);
+    padding: 30px;
+}
+.abonn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.abonn-1{
+    margin: 30px;
+    width: 300px;
+    background-color: white;
+}
+.abonn-1 h2{
+    background-color: rgb(50, 50, 50);
+    color: white;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.abonn-1 p{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+}
+.abonn-1 h3{
+    margin: 10px;
+    font-size: 20px;
+    font-family: monospace;
+}
+.Programmes{
+    text-align: center;
+}
+.Programmes h4{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(62, 62, 62);
+    padding: 30px;
+}
