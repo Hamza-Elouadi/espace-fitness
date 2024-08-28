@@ -4,7 +4,7 @@
 }
 .box{
     display: flex;
-    gap: 650px;
+    gap: 550px;
     background-color: rgb(84, 81, 81);
     box-shadow: 0 0 20px black;
     position: fixed;
@@ -41,6 +41,7 @@
     background-color: black;
     color: yellow;
     box-shadow: 0 0 12px yellow;
+    transition: 0.5s;
 }
 .box .a .hover{
     color: yellow;

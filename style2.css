@@ -52,62 +52,8 @@ body{
 .box .a a:hover{
     color: yellow;
 }
-.box-1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 150px;
-    gap: 50px;
-}
-.box-1 img{
-    width: 500px;
-    height: 500px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-.p{
-    background-color: white;
-    border-radius: 30px;
-    padding: 20px;
-}
-.p h1{
-    font-size: 50px;
-    margin: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(49, 47, 47);
-}
-.p p{
-    font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(52, 50, 50);
-}
-.b{
-    display: flex;
-    gap: 20px;
-    margin: 20px;
-}
-.b button{
-    margin: 40px;
-    height: 40px;
-    font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: yellow;
-    border-radius: 30px;
-    color: rgb(0, 0, 0);
-    margin: 40px 0 0 400px;
-    padding: 5px;
-}
-.b button:hover{
-    background-color: black;
-    color: yellow;
-    box-shadow: 0 0 12px yellow;
-    transition: 0.5s;
-}
-.b img{
-    width: 500px;
-    height: 500px;
-    object-fit: cover;
-    border-radius: 10px;
+.container{
+    margin-top: 130px;
 }
 .contacte{
     display: flex;
