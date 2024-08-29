@@ -101,3 +101,46 @@
     color: rgb(62, 62, 62);
     padding: 30px;
 }
+.contacte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 50px;
+}
+.contacte .whats{
+    color: green;
+    font-size: 30px;
+    border-radius: 5px;
+}
+.contacte .fb{
+    color: blue;
+    font-size: 30px;
+    border-radius: 5px;
+}
+.contacte .insta{
+    color: rgb(255, 0, 187);
+    font-size: 30px;
+    border-radius: 5px;
+}
+.contacte .tiktok{
+    color: black;
+    font-size: 30px;
+    border-radius: 5px;
+}
+.contacte .whats:hover{
+    color: rgb(255, 255, 255);
+    background-color: green;
+}
+.contacte .fb:hover{
+    color: rgb(255, 255, 255);
+    background-color: blue;
+}
+.contacte .insta:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 187);
+}
+.contacte .tiktok:hover{
+    color: rgb(255, 255, 255);
+    background-color: black;
+}

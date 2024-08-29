@@ -119,22 +119,22 @@ body{
 .contacte .whats{
     color: green;
     font-size: 30px;
-    border-radius: 50%;
+    border-radius: 5px;
 }
 .contacte .fb{
     color: blue;
     font-size: 30px;
-    border-radius: 50%;
+    border-radius: 5px;
 }
 .contacte .insta{
     color: rgb(255, 0, 187);
     font-size: 30px;
-    border-radius: 50%;
+    border-radius: 5px;
 }
 .contacte .tiktok{
     color: black;
     font-size: 30px;
-    border-radius: 50%;
+    border-radius: 5px;
 }
 .contacte .whats:hover{
     color: rgb(255, 255, 255);
